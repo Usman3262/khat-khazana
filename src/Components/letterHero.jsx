@@ -6,14 +6,14 @@ const App = () => {
   return (
  
     <main
-      className="h-[60vh] w-screen bg-cover bg-[50%_10%]"
+      className="h-[80vh]  w-screen bg-cover bg-[50%_10%] pt-24"
       style={{ backgroundImage: `url(${mainBgUrl})` }}
     >
       <div className="w-screen h-[60vh] min-h-[300px]  flex items-center justify-center relative overflow-hidden">
     
 
         
-        <div className="relative w-full h-full flex items-center justify-center bg-red-500 pt-20">
+        <div className="relative w-full h-full flex items-center justify-center ">
         
           <div
             className={`absolute inset-0 flex items-center justify-center transition-all duration-700 ease-in-out ${

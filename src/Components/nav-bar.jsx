@@ -63,7 +63,7 @@ const Nax = () => {
   return (
     <>
   <header
-    className="w-full  fixed bg-[#fdf8f3] backdrop-blur-sm border-b border-[#e7ddd0] shadow-md rounded-bl-4xl rounded-br-4xl  z-50"
+    className="w-full fixed  bg-transparent backdrop-blur-sm border-b border-[#e7ddd0] shadow-md rounded-bl-4xl rounded-br-4xl  z-50"
     style={{
       backgroundImage: `url(${navbg})`,
       backgroundSize: "100% 500%",
