@@ -78,7 +78,7 @@ const Nax = () => {
         <div className=" overflow-hidden h-20 object-center ">
 
   <img
-    src="src/assets/logo.png"
+    src="/logo.png"
     alt="Site Logo"
     className=" w-auto  h-20 " 
     />

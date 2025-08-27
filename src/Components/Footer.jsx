@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto md:grid md:grid-cols-4 md:gap-10 gap-6 text-left">
         {/* Logo & Socials */}
         <div>
-          <img src="src/assets/logo.png" alt="Logo" className="md:h-24 h-20 rounded-2xl mb-6" />
+          <img src="/logo.png" alt="Logo" className="md:h-24 h-20 rounded-2xl mb-6" />
           <div className="flex mt-4 space-x-4">
             <a href="#"><FaFacebookF className="text-gray-500 hover:text-[#703b1d] transition" /></a>
             <a href="#"><FaTwitter className="text-gray-500 hover:text-[#703b1d] transition" /></a>
