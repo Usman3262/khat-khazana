@@ -1,20 +1,13 @@
-import { useState } from 'react'
-import Footer from './Components/Footer.jsx';
-import './App.css'
-import LetterViewer from './Components/letterHero.jsx';
-import Nax from './Components/nav-bar.jsx';
-
-
+import "./App.css";
+import Letters from "./Components/letters.jsx";
+import SubmissionForm from "./Components/SubmissionForm.jsx";
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    <Nax/>
-    <LetterViewer/>
-      <Footer/>
-    </>
-  )
-}
+      {/* <Letters /> */}
+      <SubmissionForm/>
 
+    </>
+  );
+}
 export default App;
