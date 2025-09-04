@@ -203,11 +203,10 @@ const SubmissionForm = () => {
 
   return (
     <div
-      className="min-h-screen w-full bg-[#EFE8D8] bg-cover bg-position-[100%_10%] bg-fixed font-['Philosopher',_serif,'Ephesis']  bg-section  text-[#4A2C2A]"
+      className="min-h-screen w-full bg-cover  bg-fixed font-['Philosopher',_serif,'Ephesis'] max-w-[640px]:bg-inherit  text-[#4A2C2A] bg-section"
       style={{
         backgroundImage: "url('/src/assets/bg.png')",
-        backgroundPosition: "100% 10%",
-        //  add here 
+        backgroundPosition:'100% 10%'
       }}
     >
       <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">

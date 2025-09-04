@@ -2,4 +2,47 @@
 body{
     overflow-x:hidden;
 }
+/* Small phones */
+@media (max-width: 480px) {
+  .homepage-video {
+    height: 40vh;
+    object-fit:cover;
+  }
+  .homepage-poster {
+    height: 70vh;
+    
+    position: absolute;
+  }
+}
 
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  .homepage-video {
+    height: 45vh;
+  }
+  .homepage-poster {
+    height: 75vh;
+ 
+    position: absolute;
+  }
+}
+
+/* Small laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .homepage-video {
+    height: 40vh;
+  }
+  .homepage-poster {
+    height: 70vh;
+  }
+}
+
+/* Desktops */
+@media (min-width: 1025px) {
+  .homepage-video {
+    height: 40vh;
+  }
+  .homepage-poster {
+    height: 70vh;
+  }
+}
